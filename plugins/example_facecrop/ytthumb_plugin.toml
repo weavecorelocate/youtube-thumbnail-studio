@@ -1,0 +1,7 @@
+[plugin]
+name = "ext.facecrop"
+entry = "plugin:FaceCropPlugin"
+kind = "analyzer"
+stage = "post"
+priority = 200
+requires = ["mediapipe>=0.10.14"]
